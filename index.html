@@ -15,7 +15,7 @@
     <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900" rel="stylesheet">
 
     <title>feat</title>
   </head>
@@ -28,18 +28,22 @@
       <span class="icon ion-md-menu"></span>
     </button>
     <img src="images/logo.png" Width="45px" Height="60px" alt="feat">
+    <img src="images/logotipo.png" Width="60px" Height="45px" alt="feat">
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <div class="container">
       	 <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
           <li class="nav-item nav-custom-link">
-            <a class="nav-link" href="index.html">Inicio <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+            <a class="nav-link" href="index.html">Principal <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li>
+          <li class="nav-item nav-custom-link">
+            <a class="nav-link" href="#about">Que es feat? <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
           </li>
           <li class="nav-item nav-custom-link">
             <a class="nav-link" href="#services">Como funciona? <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
           </li>
-          <li class="nav-item nav-custom-link btn btn-demo-small">
-            <a class="nav-link" href="#">Descargate la App <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
-          </li>
+          <!-- li class="nav-item nav-custom-link">
+            <a class="nav-link" href="#footer">Promocion <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+          </li-->
         </ul>
       </div>
     </div>
@@ -62,12 +66,14 @@
 
             <h4>Disponible en: </h4>
             <ul class="download-badges">
-                <li><a href="#" title="" class="badge-appstore aos-init aos-animate" data-aos="fade-up">
-                    <img src="images/appstore.png" Width="40%" Height="25%" alt="feat">
+                <li class="pull-left">
+                    <a href="https://marvelapp.com/prototype/7gdh953/screen/86648073">
+                      <img src="images/appstore.png" Width="100%" Height="100%" alt="feat">
                     </a>
                 </li>
-                <li><a href="#" title="" class="badge-googleplay aos-init aos-animate" data-aos="fade-up">
-                    <img src="images/google-play.png" Width="40%" Height="25%" alt="feat">
+                <li class="pull-left">
+                    <a href="https://marvelapp.com/prototype/7gdh953/screen/86648073">
+                      <img src="images/google-play.png" Width="100%" Height="100%" alt="feat">
                     </a>
                 </li>
             </ul>
@@ -79,12 +85,28 @@
   </section>
   <!-- E N D  H E R O -->
 
-
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="content-box">
+            <h2>Qué es feat?</h2>
+            <p>Grow your search traffic, research your competitors keywords and monitor your ranking in real time.</p>
+            <a href="#" class="btn btn-regular">Start Free Trial</a>
+          </div>
+        </div>
+        <div class="col-md-7">
+            <img src="images/logo.png" class="img-fluid" alt="Demo image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END ABOUT -->
   <section id="services" class="section-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Como funciona la App?</h2>
+            <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Como funciona feat?</h2>
           </div>
         </div>
         <br>
@@ -96,9 +118,9 @@
                 <i class="fa fa-sign-in"></i>
               </div>
               <div class="service-content">
-                <h4>Registrate facilmente</h4>
+                <h4>Registrate</h4>
                 <p>
-                  Con tu email o numero de telefono.
+                  Sólo necesitas tu email personal.
                 </p>
               </div>
             </div>
@@ -128,9 +150,9 @@
                 <i class="fa fa-users"></i>
               </div>
               <div class="service-content">
-                <h4>Encontra gente</h4>
+                <h4>Encontra gente y eventos</h4>
                 <p>
-                  Nuestra app te va a sugerir encuentros con gente con tus mismas preferencias rapidamente.
+                  Feat te va a sugerir encuentros con gente que comparta tus mismas preferencias deportivas.
                 </p>
               </div>
             </div>
@@ -144,9 +166,9 @@
                 <i class="fa fa-cog"></i>
               </div>
               <div class="service-content">
-                <h4>Crea Eventos</h4>
+                <h4>Crea eventos</h4>
                 <p>
-                  Configura el evento que quieras y te sugerimos participantes.
+                  Configura el evento a tu gusto y feat te sugiere participantes.
                 </p>
               </div>
             </div>
@@ -162,7 +184,7 @@
               <div class="service-content">
                 <h4>Disfruta del deporte</h4>
                 <p>
-                  Conoce gente con tus mismos gustos deportivos
+                  Practica tus deportes favoritos al mismo tiempo que conoces gente nueva.
                 </p>
               </div>
             </div>
@@ -188,10 +210,15 @@
       </div>
     </section>
 
-  
-  <footer>
+  <!--section id="promo">
     <div class="container">
-        <div class="row">  
+      <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Promoción por tiempo limitado</h2>
+          </div>
+        </div>
+        <br>
+    <div class="row">  
             <div class="subscribe-form">
                 <h4>Ingresa tu email y recibi un cupon por un mes gratis de uso ilimitado</h4>
                 <form class='form' id='form'>
@@ -200,20 +227,26 @@
                 </form>
             </div>
         </div>
+      </div>
         <br><br>
+  </section-->
+  <footer>
+    <div class="container">
+        
       <div class="row">
-        <!--div class="col-md-6 col-xs-12">
+        <div class="col-md-6 col-xs-12">
             <a href="#"><i class="icon ion-logo-facebook"></i></a>
             <a href="#"><i class="icon ion-logo-instagram"></i></a>
             <a href="#"><i class="icon ion-logo-twitter"></i></a>
             <a href="#"><i class="icon ion-logo-youtube"></i></a>
-          </div-->
+          </div>
           <div class="col-md-6 col-xs-12">
             <small>2022 &copy; All rights reserved. Made by <a href="http://hibridos.com/" target="blank" class="external-links">Híbridos</a></small>
           </div>
       </div>
     </div>
   </footer>
+  
   <!--  E N D  F O O T E R  -->
     
 

@@ -86,7 +86,7 @@ section {
 ===============================================*/
 
 .custom-navbar {
-	background-color: #bca4dc!important;
+	background-color: #5854b0!important;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
 	height: 70px;
 	max-height: 70px;
@@ -107,7 +107,7 @@ section {
 }
 
 .navbar-collapse {
-	background-color: #bca4dc;
+	background-color: #5854b0;
 }
 
 .nav-custom-link {
@@ -156,7 +156,7 @@ section {
 
 .btn-demo {
 	color: #ffffff;
-	background-color: #6772e5;
+	background-color: #04e273;
 	letter-spacing: .1em;
 	padding: 15px 48px;
 	display: inline-block;
@@ -166,17 +166,17 @@ section {
 
 .btn-demo:hover {
 	color: #ffffff;
-	background-color: #636ee1;
+	background-color: #c5bcd8;
 }
 
 .btn-demo-small {
 	font-size: 12px;
-	background-color: #5854b0;
+	background-color: #bca4dc;
 	padding: 1px 4px;
 }
 
 .btn-demo-small:hover {
-	background-color: #636ee1;
+	background-color: #c5bcd8;
 }
 
 .btn-demo-small a {
