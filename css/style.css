@@ -25,8 +25,8 @@ h3 {
     color: #5854b0;
     font-size: 1.6rem;
     line-height: 1.5;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
+    /*text-transform: uppercase;
+    letter-spacing: .2rem;*/
     margin-bottom: 2.4rem;
 }
 
@@ -118,7 +118,10 @@ section {
 }
 
 .navbar a {
-	color: #ffffff !important;
+	color: #04e273 !important;
+}
+.navbar a:hover {
+	color: #14ae64 !important;
 }
 
 .nav-right {
@@ -325,6 +328,9 @@ section {
 /* ==============================================
    7. services
 ===============================================*/
+#services {
+	background-color: #f6f8f9;
+}
 
 .services-box {
 	background-color: #ffffff;
@@ -467,22 +473,22 @@ footer li {
 }
 
 footer a {
-	color: #62656a;
+	color: #04e273;
 }
 
 footer a:hover {
-	color: #0095f7;
+	color: #14ae64;
 	text-decoration: none;
 }
 
 footer i {
 	font-size: 25px;
-	color: #ffffff;
+	color: #04e273;
 	margin-right: 10px;
 }
 
 footer i:hover {
-	color: #0095f7;
+	color: #14ae64;
 }
 
 footer small {
