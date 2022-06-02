@@ -89,7 +89,7 @@ section {
 ===============================================*/
 
 .custom-navbar {
-	background-color: #5854b0!important;
+	background-color: #ffffff!important;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
 	height: 70px;
 	max-height: 70px;
@@ -110,7 +110,7 @@ section {
 }
 
 .navbar-collapse {
-	background-color: #5854b0;
+	background-color: #ffffff;
 }
 
 .nav-custom-link {
@@ -121,10 +121,12 @@ section {
 }
 
 .navbar a {
-	color: #04e273 !important;
+	font-size: 15px;
+	color: #5854b0 !important;
 }
 .navbar a:hover {
-	color: #14ae64 !important;
+	font-size: 15px;
+	color: #3e285c !important;
 }
 
 .nav-right {
