@@ -13,7 +13,6 @@ h1{
     letter-spacing: -.05rem;
     line-height: 1.269;
     color: #3e285c;
-    margin-bottom: 9rem;
 }
 
 h2 {
@@ -55,6 +54,9 @@ b {
 
 section {
 	padding: 100px 0px;
+}
+.descarga{
+	color: whitesmoke;
 }
 
 .title-block {
@@ -149,12 +151,15 @@ section {
 }
 
 .btn-regular {
-	background-color: #5854b0;
+	background-color: rgb(52, 43, 101);;
 	color: #ffffff;
 	padding: 10px 25px;
 	letter-spacing: .1em;
 	margin-top: 25px;
 	display: inline-block;
+	border: none;
+	border-radius: 12px;
+	margin-bottom: 2rem;
 }
 
 .btn-regular:hover {
@@ -749,7 +754,7 @@ footer-subscribe #mc-form .placeholder {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 	.hero-content {
-		margin-top: 100px;
+		margin-top: 70px;
 	}
 }
 
